@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="O:\Documents\ENSG3A\Genie Logiciel\First_CMake_v2\src\log_lib\print_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="O:\Documents\ENSG3A\Genie Logiciel\First_CMake_v2\include\log_lib\print_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="O:\Documents\ENSG3A\Genie Logiciel\First_CMake_v2\src\log_lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B3CF55D-03D9-381F-9D5C-8AF50FD6182E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01470F4B-94D6-3B46-A026-6C491928DCCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

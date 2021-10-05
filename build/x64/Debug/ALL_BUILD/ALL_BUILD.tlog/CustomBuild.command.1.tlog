@@ -1,0 +1,10 @@
+^O:\DOCUMENTS\ENSG3A\GENIE LOGICIEL\FIRST_CMAKE_V2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SO:/Documents/ENSG3A/Genie Logiciel/First_CMake_v2" "-BO:/Documents/ENSG3A/Genie Logiciel/First_CMake_v2/build" --check-stamp-file "O:/Documents/ENSG3A/Genie Logiciel/First_CMake_v2/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
