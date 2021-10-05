@@ -1,3 +1,0 @@
-test_hello 1 0.129032
-test_version 1 0.119427
----
