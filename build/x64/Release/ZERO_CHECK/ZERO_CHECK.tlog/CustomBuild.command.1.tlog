@@ -1,0 +1,10 @@
+^O:\DOCUMENTS\ENSG3A\GENIE LOGICIEL\CMAKE\FIRST_CMAKE_V3\BUILD\CMAKEFILES\74CE7F6FC60207DED7C4E9DE874342E8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SO:/Documents/ENSG3A/Genie Logiciel/CMake/First_CMake_v3" "-BO:/Documents/ENSG3A/Genie Logiciel/CMake/First_CMake_v3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "O:/Documents/ENSG3A/Genie Logiciel/CMake/First_CMake_v3/build/FirstOrganizedCMake.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
