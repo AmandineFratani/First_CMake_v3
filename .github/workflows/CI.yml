@@ -1,7 +1,8 @@
 name: CI
 
 on:
-  pull_request:
+  pull_request: 
+    branches : [ master ]
 
 env:
   # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
